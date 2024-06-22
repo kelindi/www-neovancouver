@@ -2,26 +2,19 @@ import Link from "next/link";
 import styles from "./page.module.scss";
 
 export default function Home() {
-
   return (
     <main className={styles.main}>
       <div className={styles.container}>
-        <header>
-          <h1 className={styles.title}>{"<ancouver.de>"}</h1>
-        </header>
-        {/* <div className={styles.hero}>
-        <img src="/lore.jpg" alt="hero" className={styles.lore}/>
-      </div> */}
+        <h1 className={styles.title}>{"_Vancouver.dev"}</h1>
+
         <p className={styles.text}>
-          <mark>
-            In the heart of Vancouver,there is a thriving tech community that
-            pulsates with innovation and creativity. Their collective is not
-            just a group but a vibrant ecosystem where developers and tech
-            enthusiasts converge, sharing their passions and expertise. Through
-            a rich tapestry of online interactions and in-person gatherings,
-            they foster a supportive environment where ideas flourish and
-            collaborations thrive.
-          </mark>
+          In the heart of Vancouver,there is a thriving tech community that
+          pulsates with innovation and creativity. Their collective is not just
+          a group but a vibrant ecosystem where developers and tech enthusiasts
+          converge, sharing their passions and expertise. Through a rich
+          tapestry of online interactions and in-person gatherings, they foster
+          a supportive environment where ideas flourish and collaborations
+          thrive.
         </p>
 
         <div className={styles.buttonCntr}>
@@ -34,6 +27,9 @@ export default function Home() {
           </Link>
         </div>
       </div>
+      <p className={styles.footer}>
+       Serif Saleh x Kelindi
+      </p>
     </main>
   );
 }

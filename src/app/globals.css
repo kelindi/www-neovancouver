@@ -100,3 +100,10 @@ a {
     color-scheme: dark;
   }
 }
+
+@font-face { 
+  font-family: "wopr"; 
+  src: url('./fonts/wopr-tweaked.ttf'); 
+  font-weight: 100 900;
+  font-style: normal; 
+} 
