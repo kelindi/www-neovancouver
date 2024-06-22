@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.container}>
-        <h1 className={styles.title}>{"_Vancouver.dev"}</h1>
+        <h1 className={styles.title}>{"_vancouver.dev"}</h1>
 
         <p className={styles.text}>
           In the heart of Vancouver,there is a thriving tech community that
