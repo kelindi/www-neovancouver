@@ -1,6 +1,6 @@
 import Link from "next/link";
 import styles from "./page.module.scss";
-import img from "../public/lore.jpg";
+import img from "./lore.jpg";
 
 export default function Home() {
 
