@@ -2,9 +2,11 @@ import Link from "next/link";
 import styles from "./page.module.scss";
 
 export default function Home() {
+
+  const imageUrl = '/lore.jpg'
   return (
     <main className={styles.main}>
-      <div className={styles.container}>
+      <div className={styles.container} style={{ backgroundImage: `url(${imageUrl})` }}>
         <header>
           <h1 className={styles.title}>{"<ancouver.de>"}</h1>
         </header>
