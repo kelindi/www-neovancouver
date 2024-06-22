@@ -1,10 +1,9 @@
 import Link from "next/link";
 import styles from "./page.module.scss";
-import img from "./lore.jpg";
+import img from "../../public/lore.jpg";
 
 export default function Home() {
 
-  const imageUrl = '/lore.jpg'
   return (
     <main className={styles.main}>
       <div className={styles.container} style={{ backgroundImage: `url(${img.src})` }}>
